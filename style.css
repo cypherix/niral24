@@ -15,12 +15,13 @@ body {
     background-color: #040404;
     height: auto; /* Changed height to auto */
     flex-direction: column; /* Changed flex-direction to column */
+    overflow: hidden;
 }
 
 .text {
-    font-weight: 500;
+    font-weight: 700;
     color: #f9f9f9;
-    font-family: "Poppins", sans-serif;
+    font-family: "Cutive Mono", monospace;
     padding: 1em;
     text-align: start;
 }
@@ -72,11 +73,12 @@ body {
 
 .soon{
     margin-left: 50px;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
     color: #fff;
     opacity: 0;
     transition: opacity 3s; 
-    font-family:"Poppins", sans-serif;
+    font-family:"DM Mono", monospace;
 }
 
 
