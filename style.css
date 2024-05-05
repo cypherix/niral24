@@ -92,6 +92,7 @@ body {
         gap: 3rem;
         justify-content: center;
         height: 90vh;
+        height: 90dvh;
     }
     .container{
         display: flex;
